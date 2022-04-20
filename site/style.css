@@ -3,8 +3,12 @@ html{
 			scroll-behavior: smooth;
 
 		}
+		*{
+
+			box-sizing: border-box;
+		}
 		body{
-			position: absolute;
+			
 			margin: 0;
 			padding: 0;
 			
@@ -12,13 +16,14 @@ html{
 
 		#one {
 
-			width: 1518px;
+			width: 1529px;
 			height: 110px;
 			background-color:black ;
 			border: 1px solid #666;
-			position: absolute;
+			position: relative;
 			left: -8.5px;
 			top: -8.5px;
+			right: -8.5px;
 			display: block;
 		}
 		
@@ -45,17 +50,17 @@ html{
 		
 		#div1{
 			width: 1514px;
-			top: 100px;
-			position: absolute;
+			
+			position: relative;
 
 
 		}
 		#div2{
 			width: 1509px;
 			height:;
-			position: absolute;
+			position: relative;
 			color:;
-			top: 450px;
+			
 			
 
 
@@ -63,16 +68,16 @@ html{
 		}
 		#div3{
 			width: 1514px;
-			position: absolute;
-			top: 1000px;
+			position: relative;
+			
 		}
 
 		#foot{
 
 			width: 1521px;
 			height: 100px;
-			position: absolute;
-			top: 1800px;
+			position:relative;
+			
 			left: -8.5px;
 			background-color: black;
 		}
